@@ -1,1 +1,99 @@
-/* Write your code from here
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    background: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#options button {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    margin: 8px auto;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background: white;
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+#options button:hover {
+    background: #0056b3;
+    color: white;
+    transform: scale(1.05);
+}
+
+#score {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+#leaderboard {
+    max-width: 500px;
+    background: white;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#leaderboard h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#leaderboard p {
+    font-size: 16px;
+    font-weight: bold;
+    background: white;
+    padding: 8px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    padding: 12px;
+    margin: 8px auto;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background: white;
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+    color: white;
+    transform: scale(1.05);
+}
